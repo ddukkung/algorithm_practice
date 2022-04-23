@@ -15,13 +15,13 @@ n이 양의 정수 x의 제곱이라면 x+1의 제곱을 리턴하고, n이 양�
 class Solution {
     public long solution(long n) {
         
-        for (long i = 1L; i <= n; i++) {
+        for (long i = 1; i <= n; i++) {
             if (n == i * i) {
                 return ++i * i;
             }
         }
         
-        return -1L;
+        return -1;
     }
 }
 ```
